@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
 
 
 
@@ -27,11 +26,11 @@ body {
 }
 .display-2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 .display-4 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.85rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
 }
 .display-5 {
   font-family: 'Roboto', sans-serif;
@@ -39,7 +38,7 @@ body {
 }
 .display-7 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -53,14 +52,14 @@ body {
     line-height: calc( 1.4 * (1.77rem + (3.2 - 1.77) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.92rem;
+    font-size: calc( 1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.68rem;
-    font-size: calc( 0.9475rem + (0.85 - 0.9475) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.9475rem + (0.85 - 0.9475) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 0.8rem;
@@ -625,8 +624,8 @@ a:hover {
   color: #ffffff;
 }
 /* Scroll to top button*/
-#scrollToTop a {
-  border-radius: 100px;
+.scrollToTop_wraper {
+  display: none;
 }
 #scrollToTop a i:before {
   content: '';
@@ -696,7 +695,7 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
@@ -852,9 +851,9 @@ body {
   box-shadow: none !important;
 }
 .cid-rt4aBITOsw {
-  padding-top: 180px;
-  padding-bottom: 180px;
-  background-image: url("../../../assets/images/karl-bewick-1571878-unsplash-1-2000x2500.jpg");
+  padding-top: 225px;
+  padding-bottom: 225px;
+  background-image: url("../../../assets/images/atik-shah-pmp-2-2000x1333.jpg");
 }
 @media (max-width: 768px) {
   .cid-rt4aBITOsw .mbr-text,
@@ -864,29 +863,24 @@ body {
   }
 }
 .cid-rt4aBITOsw .mbr-text {
-  text-align: left;
-  color: #f58634;
-}
-.cid-rt4p7R8Qeh {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #232323;
-}
-.cid-rt4p7R8Qeh .mbr-section-subtitle {
+  text-align: right;
   color: #efefef;
 }
-@media (max-width: 767px) {
-  .cid-rt4p7R8Qeh .mbr-section-btn,
-  .cid-rt4p7R8Qeh .mbr-section-subtitle,
-  .cid-rt4p7R8Qeh .mbr-section-title {
+.cid-ruXWPFmP8o {
+  background-image: url("../../../assets/images/justin-eisner-140955-unsplash-2000x1333.jpg");
+}
+@media (max-width: 768px) {
+  .cid-ruXWPFmP8o .mbr-text,
+  .cid-ruXWPFmP8o .mbr-section-subtitle,
+  .cid-ruXWPFmP8o .mbr-section-title {
     text-align: center !important;
   }
 }
-.cid-rt4p7R8Qeh .mbr-section-subtitle DIV {
-  text-align: left;
+.cid-ruXWPFmP8o .mbr-text {
+  color: #92b5d5;
 }
-.cid-rt4p7R8Qeh .mbr-section-title {
-  color: #cccccc;
+.cid-ruXWPFmP8o .mbr-section-subtitle {
+  color: #efefef;
 }
 .cid-rt4gIofcX8 {
   padding-top: 105px;
